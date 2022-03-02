@@ -41,4 +41,12 @@ let patriciaDisponible = true;
 let veronicaDisponible = false;
 let edurneDisponible = true;
 
-
+if (patriciaDisponible  == false){
+    document.querySelector(".card__patricia button").style.display = "none";
+}
+if (veronicaDisponible == false){
+    document.querySelector(".card__veronica button").style.display = "none";
+}
+if (edurneDisponible  == false){
+    document.querySelector(".card__edurne button").style.display = "none";
+}
